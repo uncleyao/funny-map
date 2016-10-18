@@ -32,7 +32,7 @@ while i < len(origins):
 
 rows = zip(distance_list,time_list)
 
-resultFile = open("place.csv", 'w',newline='')
+resultFile = open("result.csv", 'w',newline='')
 wr = csv.writer(resultFile, dialect='excel')
 for row in rows:
     wr.writerow(row)
