@@ -6,10 +6,9 @@ import datetime
 import time
 
 # for directions
-# gmaps3 = googlemaps.Client(key='AIzaSyA3hGhAAlTvKXjKSXgh4PVHqb6B3S2tipc')
-gmaps3 = googlemaps.Client(key='AIzaSyAZW8NbmWay7hhpUa1LJXTqclkz8zlWrwU')
-#gmaps2 = googlemaps.Client(key='AIzaSyDbM-SN7CD6Q60g3LjApyZOcfGujJEpDJg')
-#gmaps = googlemaps.Client(key='AIzaSyCOVf2O56NW1LAX8xrqXPmZcYr206lUa7I')
+
+gmaps3 = googlemaps.Client(key='your key')
+
 origins = []
 destinations = ['221 Shepard St, Ripon, WI 54971']
 f = open('separations.csv')
